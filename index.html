@@ -1,7 +1,7 @@
 <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
 <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-<script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
 <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+<script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
 
 <style>
   .arjs-loader {
@@ -31,11 +31,11 @@
     embedded
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
-<a-entity camera look-controls>
 <a-entity geometry="primitive: box" material="shader:gif;src:url(https://rawcdn.githack.com/Gardenou/acudam_cortines/2e2a140f61deec912b0a09de53986fad79620e19/adria.gif);transparent:true;alphaTest:0.7"
-        scale= "400 400 400"
-        position="0 0 -1"
+        scale= "300 300 300"
+        position="150 -100 100"
         ></a-entity>
+<a-entity camera>
 </a-entity>
   </a-scene>
 </body>
